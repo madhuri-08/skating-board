@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: white;
+}
+
+.custom-nav-link {
+    color: #323f4b;
+    font-family: "roboto";
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: red;
+    border-radius: 11px;
+    color: white;
+    border-style: solid;
+    border-color: red;
+}
+
+.icon-user {
+    padding: 20px;
+    color: black;
+}
+
+.icon-search {
+    padding: 20px;
+    color: black;
+}
+
+.banner-des {
+    padding: 20px;
+    margin: 0px;
+    text-align: left;
+}
+
+.banner-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.banner-para {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#homesection {
+    padding: 50px;
+    margin-left: 20px;
+}
+
+.fa-circle-arrow-left {
+    color: #261cb9;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-circle-arrow-right {
+    color: #261cb9;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.skating-class {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.class-1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.class-2 {
+    background-color: #261cb9;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #261cb9;
+}
+
+.read-more {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.read-more-2 {
+    padding-bottom: 5px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.about-section {
+    background-color: #261cb9;
+}
+
+.about-des {
+    color: white;
+    padding: 20px;
+}
+
+.abut-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+.about-para {
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+.skating-section {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.image {
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.skate-kid {
+    background-color: #261cb9;
+}
+
+.c-1 {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    height: 240px;
+    margin-bottom: 25px;
+}
+
+.c-2 {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    height: 270px;
+    margin-bottom: 25px;
+}
+
+.image-2 {
+    padding: 10px;
+}
+
+.skate-heading {
+    padding-top: 25px;
+}
+
+.skate-para {
+    padding-bottom: 20px;
+}
+
+.c-para {
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.fa-solid {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.contact-heading {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub {
+    background-color: red;
+    border-radius: 11px;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.new-heading {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* ==== RESPONSIVE OVERRIDES – ADD AT THE END ==== */
+
+@media (max-width: 991px) {
+  .banner-heading {font-size:45px;text-align:center;}
+  .banner-para {font-size:18px;text-align:center;}
+  #homesection {margin-left:0;padding:30px 10px;}
+  .read-more-2,.abut-heading,.about-para {padding-left:0;text-align:center;}
+  .contact-heading,.new-heading {text-align:center;}
+  .banner-img {width:100%!important;}
+}
+
+@media (max-width: 767px) {
+  .banner-heading {font-size:32px;}
+  .banner-para {font-size:15px;}
+  .class-1,.class-2 {margin-bottom:20px;}
+  .skate-kid .col-lg-3,.skate-kid .col-lg-6 {margin-bottom:20px;}
+  .c-para {font-size:16px;padding-left:8px;}
+  .fa-solid {font-size:22px;padding-left:8px;}
+  .sub {margin-top:10px;}
+}
+
+@media (max-width: 575px) {
+  .abut-heading {font-size:26px;padding-left:0;text-align:center;}
+  .about-para {padding-left:0;text-align:center;}
+  .contact-heading,.new-heading {font-size:24px;}
+  footer {font-size:16px;padding:8px;}
+}
